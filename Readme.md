@@ -1,3 +1,3 @@
 # Translation
 
-In order to improve my English,I'll translate some abroad books here.
+In order to improve my English,I'll translate some foreign books here.
