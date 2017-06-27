@@ -1,4 +1,4 @@
-[Toc]
+[什么是函数式反应型编程？](#什么是函数式反应型编程？)
 
 # ReactiveCocoa vs RxSwift
 
