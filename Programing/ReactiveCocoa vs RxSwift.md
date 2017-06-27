@@ -1,4 +1,4 @@
-[什么是函数式反应型编程？](#什么是函数式反应型编程？)
+[什么是函数式反应型编程？](#Test)
 
 # ReactiveCocoa vs RxSwift
 
@@ -15,7 +15,8 @@
 那么开始吧！
 
 
-## 什么是函数式反应型编程？
+什么是函数式反应型编程？
+==============
 
 > 如果你已经熟悉了函数式反应型编程的概念，可以跳过这一章节，直接阅读下一章节 [**ReactiveCocoa vs RxSwift**](#RACvsRxS)。
 
@@ -154,6 +155,9 @@ ReactiveCocoa 针对热、冷信号分别提供了这两种类型：`Signal<T,E>
 ReactiveCocoa 加一分！
 
 <img src="https://koenig-media.raywenderlich.com/uploads/2016/02/Screen-Shot-2016-02-15-at-23.12.28.png" width=80%/>
+
+Test
+=======
 
 ### 错误处理
 
