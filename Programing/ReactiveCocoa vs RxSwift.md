@@ -242,7 +242,7 @@ ReactiveCocoa 带来了许多从 Objective-C 时期完成的工作。你会发�
 
 RxSwift 加一分！
 
-<img src="https://koenig-media.raywenderlich.com/uploads/2016/02/Happy-Crying-Face-Meme-11-462x500.png" width=60%/>
+<img src="https://koenig-media.raywenderlich.com/uploads/2016/02/Happy-Crying-Face-Meme-11-462x500.png" width="60%"/>
 
 ### 社团
 
