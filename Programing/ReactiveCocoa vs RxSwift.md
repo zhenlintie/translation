@@ -4,26 +4,26 @@
 
 ![RxSwift vs ReactiveCocoa](https://koenig-media.raywenderlich.com/uploads/2016/04/RxSwiftReactiveCocoa-feature.png)
 
-函数式反应型编程（Functional Reactive Programming）是一种变得越来越流行的编程范式，尤其是在 Swift 开发者之中。它将复杂的异步过程，变得容易编写和理解。 
+函数式响应型编程（Functional Reactive Programming）是一种变得越来越流行的编程范式，尤其是在 Swift 开发者之中。它将复杂的异步过程，变得容易编写和理解。 
  
-在这篇文章里，你将可以对比函数式反应型编程中最流行的两个框架：RxSwift 和 ReactiveCocoa。  
+在这篇文章里，你将可以对比函数式响应型编程中最流行的两个框架：RxSwift 和 ReactiveCocoa。  
 
-下面来简单的了解一下，什么是函数式反应型编程？然后详细的比较一下这两个框架，了解了这些之后，你就可以选择一个适合你的框架来使用。
+下面来简单的了解一下，什么是函数式响应型编程？然后详细的比较一下这两个框架，了解了这些之后，你就可以选择一个适合你的框架来使用。
 
 那么开始吧！
 
 
-什么是函数式反应型编程？
+什么是函数式响应型编程？
 ==============
 
-> 如果你已经熟悉了函数式反应型编程的概念，可以跳过这一章节，直接阅读下一章节 [**ReactiveCocoa vs RxSwift**](#RACvsRxS)。
+> 如果你已经熟悉了函数式响应型编程的概念，可以跳过这一章节，直接阅读下一章节 [**ReactiveCocoa vs RxSwift**](#RACvsRxS)。
 
-甚至在 Swift 出现之前，函数式反应型编程（FRP）在近些年来欢受迎程度就大幅增长，与面向对象编程形成鲜明对比。从 Haskell 到 Go，再到 Javascript，都有 FRP 的实现方式。为什么呢？FRP 到底有什么特异功能？
+甚至在 Swift 出现之前，函数式响应型编程（FRP）在近些年来欢受迎程度就大幅增长，与面向对象编程形成鲜明对比。从 Haskell 到 Go，再到 Javascript，都有 FRP 的实现方式。为什么呢？FRP 到底有什么特异功能？
 最重要的问题是，你如何将这种编程范式应用到 Swift 上呢？
 
-函数式反应型编程是由 [Conal Elliott](https://twitter.com/conal) 创建的一种编程范式。他给了一个严谨详细的语义定义，你可以从[这里](https://stackoverflow.com/questions/1028250/what-is-functional-reactive-programming)去进一步了解。简单定义的话，FRP 是由两种概念组合而成的：  
+函数式响应型编程是由 [Conal Elliott](https://twitter.com/conal) 创建的一种编程范式。他给了一个严谨详细的语义定义，你可以从[这里](https://stackoverflow.com/questions/1028250/what-is-functional-reactive-programming)去进一步了解。简单定义的话，FRP 是由两种概念组合而成的：  
 
-1. **反应型编程（Reactive Programming）**，它关注的是异步数据流，你需要监听并根据其中的数据做出反应。想要了解更多，看看这篇[不错的介绍](https://gist.github.com/staltz/868e7e9bc2a7b8c1f754)。
+1. **响应型编程（Reactive Programming）**，它关注的是异步数据流，你需要监听并根据其中的数据做出响应。想要了解更多，看看这篇[不错的介绍](https://gist.github.com/staltz/868e7e9bc2a7b8c1f754)。
 2. **函数式编程（Functional Programming）**，他的函数定义具有数学风格，计算过程中尽量避免使用变量和状态值，代码更加灵活无副作用。想要了解更多，请看我们的另一篇 ["Swift functional programming tutorial"](https://www.raywenderlich.com/82599/swift-functional-programming-tutorial)。  
 
 >[André Staltz](https://twitter.com/andrestaltz) 在他的文章 ["Why I cannot say FRP but I just did"](https://medium.com/@andrestaltz/why-i-cannot-say-frp-but-i-just-did-d5ffaa23973b#.62dnhk32p) 中，阐述了标准的 FRP 范式和它的可实现方式之间的差别。  
