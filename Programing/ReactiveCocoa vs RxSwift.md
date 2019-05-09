@@ -87,7 +87,7 @@ locationProducer
 - 它使代码更加容易被理解。
 - 复杂的数据流，变得容易管理和描述。  
 
-<img src="https://koenig-media.raywenderlich.com/uploads/2016/02/Screen-Shot-2016-02-15-at-22.03.12.png" width=80%/>
+<img src="https://koenig-media.raywenderlich.com/uploads/2016/02/Screen-Shot-2016-02-15-at-22.03.12.png" width="80%"/>
 
 ## <p id="RACvsRxS"> ReactiveCocoa 和 RxSwift 简述 </p>
 
